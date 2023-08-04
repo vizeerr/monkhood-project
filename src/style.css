@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    font-size: 4em;
+    font-weight: 100;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+form label{
+    font-size: 15px;
+}
+
+.formbox{
+    padding: 40px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 18px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+  }
+
+input[type=submit] {
+  width: 30%;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+input[type=submit]:hover {
+  background-color: #686868;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid;
+}
+tbody{
+  border-bottom: 2px solid;
+  background: #000;
+  color: #fff;
+}
+th,tr,td{
+  border-left: 2px solid;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table img{
+  width: 150px;
+  border-radius: 5px;
+}
+
+img:hover{
+  transition: 0.3s ;
+  scale: 1.15;
+}
+
+#editform{
+  border-radius: 16px;
+  background: #fff;
+  position: fixed;
+  box-shadow: 0 0 20px 6px #727272;
+  opacity: 0;
+}
+
+#editform button{
+  background: red;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 40px;
+  border: none;
+  font-size: 14px;
+  margin-left: 20px;
+}
