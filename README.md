@@ -17,8 +17,8 @@ git clone https://github.com/your-username/MyWebApp.git
 <h2>💻 Usage</h2>
 <b><i>Live Link :- https://monkhoodproject.netlify.app/</i></b><br>
 or<br>
-1. Clone the repo
-2. Run on localhost
+1. Clone the repo </br>
+2. Run on localhost </br>
 
 Let's connect on Linkedin! 😃 :- 
 <b><i>https://www.linkedin.com/in/theviveksagar/</i></b>
